@@ -1,3 +1,10 @@
+import streamlit as st
+import numpy as np
+from scipy.stats import norm
+from datetime import date
+
+st.title("📈 Black-Scholes-Merton Option Calculator")
+
 # Toggle at the top
 mode = st.radio("Select Mode", ["Premium Calculator", "Implied Volatility Calculator"])
 
